@@ -1,13 +1,13 @@
 motorShaftDim = [5,3,6];
 motorShaftBase = [5,2];
 
-loadCell = [12.5,80,12.5];
+loadCell = [12.5+0.1,80,12.5];
 
-case = [loadCell.x+5,40,loadCell.z];
+case = [loadCell.x+5,45,loadCell.z];
 
 loadCellDistanceFromShaft = 10;
 loadCellHoleGap = 15;
-loadCellHoleSize = 4;
+loadCellHoleSize = 5;
 loadCellHolePos1 = [-case.x/2,5,loadCell.z/2];
 loadCellHolePos2 = [-case.x/2,5+loadCellHoleGap,loadCell.z/2];
 
