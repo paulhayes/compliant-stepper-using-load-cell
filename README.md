@@ -1,4 +1,4 @@
-# Compliant Stepper Mototr example using a load cell
+# Compliant Stepper Motor example using a load cell
 
 ![](./demo.gif)
 
