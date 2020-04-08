@@ -1,5 +1,7 @@
 # Compliant Stepper Mototr example using a load cell
 
+![](./demo.gif)
+
 ## Hardware
 * Teensy 3.2 or above
 * cheap load cell
