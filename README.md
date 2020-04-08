@@ -16,8 +16,17 @@ That's it!
 * D4-7 stepper motor contol
 * D8 button ( connected buttons other terminal to ground )
 
+## Installation and usage
+
+Download or clone this repo, and open in platformio. This can be compiled with the Arduino IDE, however you'll need to install the 3rd party libraries mentioned in the platformio.ini manually.
+
+## Code
+
 This code utlised the teensy's fast ADC differencial comparator across the wheatstone bridge of the loadcell. 
 
+### Filtering
+
+I've tried using both a first order ( low pass ) filter, which worked well. I switched to a Kalman filter, and it has marginally better results, increasing responce times while filtering slightly better.  However the benefits are minor.
 
 ## Why didn't you use the teensy's Programable Gain Amplifier?
 
