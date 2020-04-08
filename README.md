@@ -24,9 +24,12 @@ Download or clone this repo, and open in platformio. This can be compiled with t
 
 This code utlised the teensy's fast ADC differencial comparator across the wheatstone bridge of the loadcell. 
 
+The Teensy is able to read the load cell extremely quickly, depending on settings I was getting between 1khz-100khz. Admitidly only with 16bit precision, but this is more than enough for detecting force being applied to it. I've opted for very high averaging as the values are extremely noisy.
+
 ### Filtering
 
 I've tried using both a first order ( low pass ) filter, which worked well. I switched to a Kalman filter, and it has marginally better results, increasing responce times while filtering slightly better.  However the benefits are minor.
+
 
 ## Why didn't you use the teensy's Programable Gain Amplifier?
 
